@@ -1,0 +1,164 @@
+body{
+    background-image: url('../photos/fond_ecran1.jpg');
+}
+
+.conteneur{
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url('../photos/fond_ecran.jpg');
+	background-size: auto;
+}
+
+p.debut{
+	text-align: center;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+p.titre{
+	text-align: center;
+	font-size: 200%;
+	text-shadow: 2px 2px grey;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+.logo{
+	max-width: 100% ;
+}
+
+.div {
+  border-bottom: 1px dotted black;
+  width: 20%;
+  margin-left: 10%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.div .tooltiptext {
+  visibility: hidden;
+  max-width: 10%;
+  padding: 4px 4px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-size : 150%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.div:hover .tooltiptext {
+  visibility: visible;
+  margin-top: 5%;
+}
+
+.div2 {
+  border-bottom: 1px dotted black;
+  width: 20%;
+  margin-left: 10%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.div2 .tooltiptext2 {
+  visibility: hidden;
+  max-width: 10%;
+  padding: 4px 4px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-size : 150%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.div2:hover .tooltiptext2 {
+  visibility: visible;
+  margin-top: 5%;
+}
+
+
+.divl {
+  border-bottom: 1px dotted black;
+  width: 20%;
+  margin-left: 23%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.divl .tooltiptextl {
+  visibility: hidden;
+  width: 10%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  font-size : 150%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.divl:hover .tooltiptextl {
+  visibility: visible;
+  margin-top: 5%;
+}
+
+
+@media screen and (max-width:600px){
+
+	p.titre{
+		font-size: 120%;
+	}
+
+	.div {
+	  width: 20%;
+	  margin-left: 10%;
+	}
+
+	.div .tooltiptext {
+	  font-size : 49%;
+	  visibility: visible;
+	  width: auto;
+
+	  /* Position the tooltip */
+	  margin-top: 5%;
+	}
+
+
+	.divl {
+	  width: 20%;
+	  margin-left: 15%;
+	}
+
+	.divl .tooltiptextl {
+		font-size : 49%;
+		visibility: visible;
+
+	  /* Position the tooltip */
+	  margin-top: 5%;
+	}
+
+	.div2 {
+	  width: 20%;
+	  margin-left: 2%;
+	}
+
+	.div2 .tooltiptext2 {
+		font-size : 49%;
+		visibility: visible;
+
+	  /* Position the tooltip */
+	  margin-top: 5%;
+	}
+}

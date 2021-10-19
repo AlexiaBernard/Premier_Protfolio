@@ -1,0 +1,14 @@
+body{
+	background-image: url(../photos/fond_ecran1.jpg);
+}
+
+.conteneur{
+	text-align: center;
+	text-indent: 2%;
+	margin: 5% 5% auto;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url('../photos/fond_ecran.jpg');
+	background-size: auto;
+
+}

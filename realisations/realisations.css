@@ -1,0 +1,23 @@
+body{
+	background-image: url(../photos/fond_ecran1.jpg);
+}
+
+.conteneur{
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url('../photos/fond_ecran.jpg');
+	background-size: auto;
+	padding-bottom: 15%;
+}
+
+.Rea {
+	text-align: center;
+
+}
+.aze{
+	color: black;
+	text-decoration:none;
+}
+.aze:hover{
+	text-decoration:underline;
+}

@@ -1,0 +1,35 @@
+body{
+	background-image: url(../photos/fond_ecran1.jpg);
+}
+
+.conteneur{
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url('../photos/fond_ecran.jpg');
+	background-size: auto;
+}
+
+.entete{
+	text-align: center;
+}
+
+.indent {
+	text-indent: 2%;
+	margin-left: 6%;
+	margin-right: 7%;
+}
+
+.doodle{
+	margin-left: 10%;
+	width: 80%;
+	height: auto;
+}
+
+.onglets{
+	text-decoration: none;
+	color: blue;
+}
+
+.onglets:hover{
+	text-decoration: underline;
+}

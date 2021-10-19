@@ -1,0 +1,96 @@
+body{
+    background-image: url('../photos/fond_ecran1.jpg');
+}
+
+.conteneur{
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url('../photos/fond_ecran.jpg');
+	background-size: auto;
+}
+
+
+.intro{
+	text-align: center;
+}
+
+
+table{
+	margin-left: 25%;
+	width: 60%;
+}
+
+
+.input {
+	width: 100% ;
+}
+input{
+	width: 100%;
+}
+textarea{
+	width: 100%;
+}
+
+.bouton{
+	width: auto;
+}
+
+.label {
+	width: 30%; 
+	text-align: center;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+}
+
+.un{
+	margin-left: 39%;
+}
+tr:hover{
+	background-color: lightblue;
+}
+.un:hover{
+	background-color: lightblue;
+	margin-left: 39%;
+	margin-right: 47%;
+}
+
+}
+tr:hover{
+	background-color: lightblue;
+}
+
+i{
+	padding-left: 5%;
+	padding-right: 1%;
+}
+
+p.coordonnees2{
+	text-align: right;
+	margin-right: 5%;
+}
+
+@media screen and (max-width:600px){
+	.intro{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.un{
+		margin-left: 29%;
+	}
+	.un:hover{
+		margin-left: 29%;
+		margin-right: 39%;
+	}
+	table{
+		margin-left: 15%;
+		width: 60%;
+	}
+
+	p.coordonnees2{
+	margin-top: 4%;
+}
+}
+
+

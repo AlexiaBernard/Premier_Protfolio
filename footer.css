@@ -1,0 +1,66 @@
+html{height:100%;}
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 0px;
+	left: 0;
+	right: 0;
+	width:100%;
+	padding-top:20px;
+	height:108px;
+	background-color: pink;
+	text-indent: 10px;
+	top: 100%;
+	overflow: auto;
+}
+.IUT{
+
+	float: right;
+	max-width:20%;
+	max-height: 22%;
+	margin-right: 1%;
+	background-color: pink;
+	
+}
+.email{
+    float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 100%;
+}
+
+#email {
+	text-decoration: none;
+	color: blue;
+}
+
+#email:hover{
+	text-decoration: underline;
+}
+
+@media screen and (max-width:600px){
+	footer {
+		height: 70px;
+	}
+
+	.email{
+		font-size: 70%;
+		margin-top: 1%;
+	}
+}
+
+@media screen and (max-width:300px){
+
+	.email{
+		font-size: 50%;
+	}
+}
+
+

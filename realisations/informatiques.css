@@ -1,0 +1,62 @@
+
+body{
+	background-image: url(../photos/fond_ecran1.jpg);
+}
+
+.conteneur{
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url('../photos/fond_ecran.jpg');
+	background-size: auto;
+}
+
+.entete{
+	text-align: center;
+}
+
+.indent {
+	text-indent: 2%;
+	margin-left: 6%;
+	margin-right: 7%;
+}
+
+.blocus {
+	width: 35%;
+	margin-left: 4%;
+	padding-left: 2%; 
+}
+
+#menu{
+	text-align: justify;
+	padding-left: 6%;
+	padding-right: 3%;
+}
+
+#jeux{
+	text-align: justify;
+	padding-left: 12%;
+	padding-right: 10%;
+}
+
+#photo2 {
+	padding-left: 10%;
+}
+
+#photo3{
+	margin-left: 25%;
+}
+
+#resultat{
+	margin-left: 27%;
+	margin-right: 38%;
+	text-align: justify;
+}
+
+.onglets{
+	text-decoration: none;
+	color: blue;
+}
+
+.onglets:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+html{
+	overflow: auto;
+}
+ 
+body{
+    background-image: url('photos/fond_ecran1.jpg');
+}
+
+.conteneur{
+	text-align: center;
+	text-indent: 2%;
+	margin-right: 7%;
+	margin-left: 5%;
+	background-image: url('photos/fond_ecran.jpg');
+	background-size: auto;
+}
+
+.bjr{
+	font-size: 120%;
+	text-shadow: 2px 2px white;
+}
+.photo{
+	width: 20%;
+	float: left;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+.intereur{
+	text-align: justify;
+	margin-right: 9%;
+	margin-left: 7%;
+}
+
+a.link{
+	text-decoration: none;
+	color: blue;
+}
+
+a.link:hover{
+	text-decoration: underline;
+}
+
+
+

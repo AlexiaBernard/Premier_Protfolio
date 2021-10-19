@@ -1,0 +1,354 @@
+body{
+    background-image: url('../photos/fond_ecran1.jpg');
+}
+
+.conteneur{
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url('../photos/fond_ecran.jpg');
+	background-size: auto;
+}
+
+.photo {
+	max-width:50%;
+	max-height: 50%;
+	margin-left: 24%;
+	border-radius: 50%;
+}
+
+.un{
+
+	background-color: rgba(253,106,2,0.3);
+	max-width: 25%;
+	border-radius: 12px;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	margin-left: 2%;
+	float: left;
+}
+
+p#nom {
+	font-size: 200%;
+	text-shadow: 2px 2px grey;
+	margin-left: 0%;
+	margin-right: 0%;
+	display: inline;
+}
+
+#codep {
+	margin-left: 10%;
+}
+
+.deux{
+	background-color: rgba(253,106,2,0.3);
+	border-radius: 12px;
+	margin-left: 42%;
+	margin-right: 15%;
+	text-align: center;
+	font-size: 200%;
+	text-shadow: 2px 2px 5px grey;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.trois{
+	background-color: rgba(253,106,2,0.3);
+	border-radius: 12px;
+	margin-left: 31%;
+	margin-right: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+}
+
+#formation {
+	font-size: 200%;
+	text-shadow: 2px 2px 5px grey;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.tab1{
+	width: 15%;
+}
+
+.tableau_form td {
+	padding-bottom: 2%;
+}
+
+.quatre{
+	background-color: rgba(253,106,2,0.3);
+	border-radius: 12px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 7%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+}
+
+#exp {
+	font-size: 200%;
+	text-shadow: 2px 2px 5px grey;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.tab2{
+	width: 20%;
+}
+
+.tableau_exp td {
+	padding-bottom: 2%;
+}
+
+.cinq{
+	background-color: rgba(253,106,2,0.3);
+	border-radius: 12px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+}
+
+#ling {
+	font-size: 200%;
+	text-shadow: 2px 2px 5px grey;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.tab3{
+	width: 20%;
+}
+
+.tableau_ling td {
+	padding-bottom: 2%;
+}
+
+.six{
+	background-color: rgba(253,106,2,0.3);
+	border-radius: 12px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+}
+
+#info {
+	font-size: 200%;
+	text-shadow: 2px 2px 5px grey;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.tableau_info td {
+	text-align: center;
+	width: 41%;
+}
+
+table.tableau_info {
+	margin-left: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+tr:hover{
+	background-color: lightgrey;
+}
+
+.lien{
+	text-decoration: none;
+	color: blue
+}
+
+.lien:hover{
+	text-decoration: underline;
+}
+
+#rea {
+	font-size: 150%;
+	text-shadow: 2px 2px 5px grey;
+	padding-bottom: 1%;
+	margin-left: 10%;
+}
+
+.rea {
+	margin-left: 5%;
+}
+
+.sept{
+	background-color: rgba(253,106,2,0.3);
+	border-radius: 12px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+}
+
+#extra {
+	font-size: 200%;
+	text-shadow: 2px 2px 5px grey;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.tab4{
+	width: 23%;
+}
+
+table.tableau_extra {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.tableau_extra td {
+	padding-bottom: 1%;
+}
+
+.btn4{
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  position: fixed;
+  top: 20%;
+}
+.btn5{
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  position: fixed;
+  top:27%;
+}
+
+
+@media screen and (max-width:600px){
+	i {
+		padding-right: 8%;
+	}
+
+	.photo {
+		max-width:25%;
+		max-height: 25%;
+		margin-left: 20%;
+	}
+
+	.un{
+		float: none;
+		font-size: 100%;
+		margin-right: 2%;
+		max-width: 100%;
+		padding-right: 1%;
+		padding-left: 20%;
+		padding-bottom: 1%;
+		margin-left: 2%;
+	}
+
+	p#nom {
+		padding-left: 10%;
+		font-size: 150%;
+	}
+
+	#codep {
+		margin-left: 14%;
+	}
+
+	.deux{
+		margin-left: 18%;
+		margin-right: 16%;
+		font-size: 150%;
+	}
+
+	td.tab1{
+		width: 20%;
+	}
+
+	.trois{
+		margin-left: 2%;
+	}
+
+	#formation {
+		font-size: 150%;
+	}
+
+	.quatre{
+		margin-top: 5%;
+	}
+
+	#exp {
+		font-size: 150%;
+	}
+
+	td.tab2{
+		width: 23%;
+		padding-right: 1%;
+	}
+
+	.cinq{
+		margin-top: 5%;
+	}
+
+	#ling {
+		font-size: 150%;
+	}
+
+	.six{
+		margin-top: 5%;
+	}
+
+	#info {
+		font-size: 150%;
+	}
+
+	table.tableau_info{
+		margin-left: 2%;
+		margin-right: 2%;
+		font-size: 80%;
+	}
+
+	#rea {
+		font-size: 120%;
+	}
+
+	.sept{
+		margin-top: 5%;
+	}
+
+	#extra {
+		font-size: 150%;
+	}
+
+
+}
+
+@media screen and (max-width:500px){
+	.un{
+		padding-left: 15%;
+	}
+	.deux{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+
+@media screen and (max-width:400px){
+	.un{
+		padding-left: 5%;
+	}
+	p#nom {
+		margin-left: 4%;
+	}
+
+	.photo{
+		margin-left: 27%;
+	}
+
+	.deux{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
