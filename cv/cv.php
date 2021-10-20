@@ -110,7 +110,7 @@
       <tr>
         <td>Programmation objet </td>
         <td>Java</td>
-        <td>Partiellement acquis</td>
+        <td>Partiellement acquis +</td>
       </tr>
       <tr>
         <td>WEB </td>
@@ -151,12 +151,12 @@
 
     <p id="rea"><strong>Réalisations</strong></p><br>
     <p class="rea"> 
-      <strong>Juillet 2021</strong> : <a href="https://dwarves.iut-fbleau.fr/git/bernardal/PROJET_PHP_2.1.git" class="lien" target="_blank"><strong>Doodle</strong></a>, utilisation HTML, CSS et CodeIgniter<br><br>
+      <strong>Juillet 2021</strong> : <a href="https://dwarves.iut-fbleau.fr/gitiut/cunsolo/PROJET_PHP_2.1" class="lien" target="_blank"><strong>Doodle</strong></a>, utilisation HTML, CSS et CodeIgniter<br><br>
 
-      <strong>Avril 2021</strong> : <a href="https://dwarves.iut-fbleau.fr/git/bernardal/PT21_APL2020.git" class="lien" target="_blank"><strong>Samegame</strong></a>, utilisation Java<br><br>
+      <strong>Avril 2021</strong> : <a href="https://dwarves.iut-fbleau.fr/gitiut/cunsolo/PT21_APL2020" class="lien" target="_blank"><strong>Samegame</strong></a>, utilisation Java<br><br>
 
-      <strong>Janvier 2021</strong> : <a href="https://dwarves.iut-fbleau.fr/git/bernardal/projetwims1_bernardal.git" class="lien" target="_blank"><strong>Portfolio</strong></a>, utilisation HTML, CSS et JavaScript<br><br>
-      <strong>Janvier 2021</strong> : <a href="https://dwarves.iut-fbleau.fr/git/bernardal/Projet_APL_1.1.git" class="lien" target="_blank"><strong>Jeux blocus</strong></a>, utilisation C
+      <strong>Janvier 2021</strong> : <a href="https://dwarves.iut-fbleau.fr/gitiut/bernardal/Portfolio" class="lien" target="_blank"><strong>Portfolio</strong></a>, utilisation HTML, CSS et JavaScript<br><br>
+      <strong>Janvier 2021</strong> : <a href="https://dwarves.iut-fbleau.fr/gitiut/cunsolo/PT11_APL2020" class="lien" target="_blank"><strong>Jeux blocus</strong></a>, utilisation C
     </p>
     </div>
     <br>
